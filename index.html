@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bloom Valley Nursery | Home</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-title">
+        <img
+          src="images/Client1_LogoPalette2_96BAA0.png"
+          alt="Bloom Valley Nursery logo"
+          width="120"
+        />
+
+        <h1>Bloom Valley Nursery</h1>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About Us/Contact</a>
+        <a href="community.html">Community</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Welcome to Bloom Valley Nursery</h2>
+        <p>
+          Bloom Valley Nursery is a local, family-owned plant nursery offering
+          plants, trees, and gardening supplies for gardening enthusiasts and
+          homeowners.
+        </p>
+      </section>
+
+      <section>
+        <h2>Client Highlights</h2>
+        <p>
+          We focus on sustainability, creativity, and high-quality gardening
+          products for the local community.
+        </p>
+      </section>
+
+      <section>
+        <h2>Shopping Promos</h2>
+        <p>
+          Visit us this season for special offers on trees, houseplants, and
+          gardening supplies.
+        </p>
+      </section>
+
+      <section>
+        <h2>Featured Products</h2>
+        <img src="images/Client1_AppleTree.png" alt="Apple tree" width="200" />
+        <img
+          src="images/Client1_WateringCan.png"
+          alt="Watering can"
+          width="200"
+        />
+      </section>
+
+      <section>
+        <h2>Shopping Perks</h2>
+        <ul>
+          <li>Locally owned business</li>
+          <li>Wide variety of plants and supplies</li>
+          <li>Helpful support for gardeners</li>
+          <li>Custom order options</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Product Categories</h2>
+        <ul>
+          <li>Trees</li>
+          <li>Houseplants</li>
+          <li>Gardening Supplies</li>
+          <li>Outdoor Decor</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <h3>Subscribe to Our Newsletter</h3>
+
+        <form id="subscribeForm">
+          <label for="newsletter">Email:</label>
+          <input type="email" id="newsletter" name="newsletter" />
+          <button type="submit">Subscribe</button>
+        </form>
+
+        <p>Follow us: Facebook | Instagram | Pinterest</p>
+      </div>
+    </footer>
+    <script>
+      const subscribeForm = document.getElementById('subscribeForm');
+
+      subscribeForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+        alert('Thank you for subscribing.');
+      });
+    </script>
+  </body>
+</html>
